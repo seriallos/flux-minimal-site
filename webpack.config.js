@@ -9,9 +9,6 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
-  resolveLoader: {
-    root: path.join(__dirname, "node_modules")
-  },
   module: {
     loaders: [
       {
