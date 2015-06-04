@@ -1,3 +1,3 @@
-import TestComponent from 'flux-minimal';
+import minimalApp from 'flux-minimal';
 
-console.log(TestComponent);
+minimalApp.init('app');
