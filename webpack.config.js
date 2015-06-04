@@ -4,6 +4,9 @@ module.exports = {
     path: './dist/',
     filename: 'index.js'
   },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   module: {
     loaders: [
       {
